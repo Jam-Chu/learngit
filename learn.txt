@@ -12,4 +12,20 @@
 
 
 注：1、所有修改完成后，必须add文件后，再commit提交	，若不清楚git当前，请git status查看add否状态，查看明细使用git diff
+
+
+
+
+
+实用1：先有本地库再关联远端库
+	mkdir ，cd进去，git init创建一个本地空库
+	写文件，git add ，git conmmit
+	在github上创建一个库，记住库名
+	git remote add origin git@github.com:github帐户名/库名.git, 关联库
+	git push -u origin master，	将commit内容推到远端
+实用2（推荐）：将远端库克隆到本地库
+	找到一个库，或新建一个空白库
+	进入一个目录位置，bash here
+	git clone git@github.com:网址后半段.git		eg:Jam-Chu/2048.git，但只有自己的库才能修改提交
+	
 		
