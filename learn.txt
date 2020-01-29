@@ -6,6 +6,7 @@
 	git reset --hard commit_id:			将指针回退或前进到某一commit节点版版本，相应工作区的文件也会回到某一状态，head指向某一commit_id
 	git reflog:							若cmd关闭，该指令可查看所有操作
 	git checkout --文件名				会让这个文件回到最近一次git commit 或 git add时的状态
+	git rm 文件名						在最新版本库删除文件				
 
 
 
