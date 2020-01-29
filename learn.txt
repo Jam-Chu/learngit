@@ -1,0 +1,9 @@
+git版本控制相关命令设置：
+	git add 文件： 						添加文件到暂存区（stage）
+	git commit -m "备注":  				将暂存区的所有文件提交到当前分支中
+	git status： 						查看当前git状态，（未改动、改动未add，add未提交）
+	git log： 							查看所有commit版本信息，以及现版本所在，head指向（commit_id取前7位即可）
+	git reset --hard commit_id:			将指针回退或前进到某一commit节点版版本，相应工作区的文件也会回到某一状态，head指向某一commit_id
+	git reflog:							若cmd关闭，该指令可查看所有操作
+	
+		
