@@ -5,6 +5,7 @@
 	git log： 							查看所有commit版本信息，以及现版本所在，head指向（commit_id取前7位即可）
 	git reset --hard commit_id:			将指针回退或前进到某一commit节点版版本，相应工作区的文件也会回到某一状态，head指向某一commit_id
 	git reflog:							若cmd关闭，该指令可查看所有操作
+	git checkout --文件名				会让这个文件回到最近一次git commit 或 git add时的状态
 
 
 
